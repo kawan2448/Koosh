@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #f4f4f4;
+}
+
+header {
+    background-color: #ff5722;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+section h2 {
+    color: #ff5722;
+    margin-bottom: 1rem;
+}
+
+.meta, .jogue-comigo {
+    background-color: #292929;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+a {
+    color: #ff5722;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #aaa;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.button-container {
+    margin: 2rem 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px; /* Borda arredondada */
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Transição suave */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.button:hover {
+    background-color: #e64a19;
+    transform: scale(1.1); /* Efeito de aumento */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Aumenta a sombra ao passar o mouse */
+}
+
+.button i {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    transition: all 0.3s ease; /* Transição suave para o ícone */
+}
+
+.button:hover i {
+    transform: rotate(360deg); /* Efeito de rotação no ícone */
+}
+
+
+/* Estilo da Seção de Comentários */
+.comentarios {
+    background-color: #292929;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.comentarios h2 {
+    color: #ff5722;
+    margin-bottom: 1rem;
+}
+
+.comentarios label {
+    color: #f4f4f4;
+    margin: 0.5rem 0;
+    display: block;
+}
+
+.comentarios input,
+.comentarios textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ff5722;
+    background-color: #1c1c1c;
+    color: #f4f4f4;
+}
+
+.comentarios input:focus,
+.comentarios textarea:focus {
+    border-color: #ff5722;
+    outline: none;
+}
+
+.comentarios button {
+    background-color: #ff5722;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.comentarios button:hover {
+    background-color: #e64a19;
+    transform: scale(1.1);
+}
+
+.comentarios-exibidos {
+    margin-top: 2rem;
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.comentarios-exibidos h3 {
+    color: #ff5722;
+}
+
+.comentarios-exibidos .comentario {
+    background-color: #444;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.comentarios-exibidos .comentario p {
+    margin: 0;
+    color: #f4f4f4;
+}
+
+.comentarios-exibidos .comentario strong {
+    color: #ff5722;
+}
